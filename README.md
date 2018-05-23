@@ -1,5 +1,5 @@
-Prepare data for analysis and visualisation of OpenStreeMap Brighton
-
+Prepare OpenStreetMap Brighton and Hove data for analysis and visualisation
+===========================================================================
 Brighton and Hove is technically a unitary authority that is part of the
 traditional county of East Sussex.
 It is defined in OSM by [relation 114085]( https://www.openstreetmap.org/relation/114085)
