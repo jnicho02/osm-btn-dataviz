@@ -29,4 +29,20 @@ To Use Tableau
 ==============
 * Open brighton_and_hove_osm_point_and_polygon.csv
 
+![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.18.55%20pm.png)
+
+![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.19.19%20pm.png)
+
+![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.19.39%20pm.png)
+
+![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.19.57%20pm.png)
+
+![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.20.36%20pm.png)
+
+![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.21.06%20pm.png)
+
+![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.24.11%20pm.png)
+
+![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.24.27%20pm.png)
+
 ![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.24.47%20pm.png)
