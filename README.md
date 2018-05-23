@@ -39,17 +39,17 @@ To Use Tableau
 * Right-click and change Longitude and Latitude into Dimensions
 ![Right-click and change Longitude and Latitude into Dimensions](Screen%20Shot%202018-05-23%20at%205.19.57%20pm.png)
 
-* Drag the Amenity Dimension to Filters
-![Drag the Amenity Dimension to Filters](Screen%20Shot%202018-05-23%20at%205.20.36%20pm.png)
-
-* Exclude Nulls
-![Exclude Nulls](Screen%20Shot%202018-05-23%20at%205.21.06%20pm.png)
+* Drag the Amenity Dimension to Filters. Exclude Nulls
+![Drag the Amenity Dimension to Filters. Exclude Nulls](Screen%20Shot%202018-05-23%20at%205.20.36%20pm.png)
 
 * Drag (another) Amenity Dimension to Columns
-![Drag (another) Amenity Dimension to Columns](Screen%20Shot%202018-05-23%20at%205.24.11%20pm.png)
+![Drag (another) Amenity Dimension to Columns](Screen%20Shot%202018-05-23%20at%205.21.06%20pm.png)
 
 * Right-click on a point to View Data
-![Right-click on a point to View Data](Screen%20Shot%202018-05-23%20at%205.24.27%20pm.png)
+![Right-click on a point to View Data](Screen%20Shot%202018-05-23%20at%205.24.11%20pm.png)
 
 * In the Full Data tab copy the OSM uri
-![In the Full Data tab copy the OSM uri](Screen%20Shot%202018-05-23%20at%205.24.47%20pm.png)
+![In the Full Data tab copy the OSM uri](Screen%20Shot%202018-05-23%20at%205.24.27%20pm.png)
+
+* Paste the uri in a web browser
+![Paste the uri in a web browser](Screen%20Shot%202018-05-23%20at%205.24.47%20pm.png)
