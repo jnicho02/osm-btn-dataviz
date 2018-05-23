@@ -4,29 +4,10 @@ Brighton and Hove is technically a unitary authority that is part of the
 traditional county of East Sussex.
 It is defined in OSM by [relation 114085]( https://www.openstreetmap.org/relation/114085)
 
-```sql
-SELECT osm_id FROM public.planet_osm_polygon
-WHERE boundary = 'administrative'
-  AND admin_level = '6'
-  AND name = 'Brighton and Hove'
-```
-
-Requirements
-============
-Postgres database server
-postgis
-osm2pgsql
-Tableau Public
-
-To Run
-======
-```sh
-chmod a+x db-build.sh
-./db-build.sh
-```
-
 To Use Tableau
 ==============
+I have a [download of the data](https://s3.eu-west-2.amazonaws.com/openplaques/brighton_and_hove_osm_point_and_polygon.csv) in AWS for now.
+
 * Open brighton_and_hove_osm_point_and_polygon.csv
 ![Open brighton_and_hove_osm_point_and_polygon.csv](Screen%20Shot%202018-05-23%20at%205.18.55%20pm.png)
 
@@ -53,3 +34,31 @@ To Use Tableau
 
 * Paste the uri in a web browser
 ![Paste the uri in a web browser](Screen%20Shot%202018-05-23%20at%205.24.47%20pm.png)
+
+To prepare the data yourself
+============================
+
+Requirements
+============
+Postgres database server
+postgis
+osm2pgsql
+Tableau Public
+
+To Run
+======
+```sh
+chmod a+x db-build.sh
+./db-build.sh
+```
+
+To query the database
+=====================
+I recommend installing pg_admin. Then you can do queries like:
+
+```sql
+SELECT osm_id FROM public.planet_osm_polygon
+WHERE boundary = 'administrative'
+  AND admin_level = '6'
+  AND name = 'Brighton and Hove'
+```
