@@ -29,4 +29,4 @@ To Use Tableau
 ==============
 * Open brighton_and_hove_osm_point_and_polygon.csv
 
-![Open brighton_and_hove_osm_point_and_polygon.csv]('./Screen Shot 2018-05-23 at 5.18.55 pm.png'){:class="img-responsive"}
+![Open brighton_and_hove_osm_point_and_polygon.csv](https://guides.github.com/images/logo@2x.png)
