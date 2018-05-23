@@ -16,7 +16,7 @@ Requirements
 Postgres database server
 postgis
 osm2pgsql
-ogr2ogr
+Tableau Public
 
 To Run
 ======
@@ -24,3 +24,9 @@ To Run
 chmod a+x db-build.sh
 ./db-build.sh
 ```
+
+To Use Tableau
+==============
+* Open brighton_and_hove_osm_point_and_polygon.csv
+
+![Open brighton_and_hove_osm_point_and_polygon.csv](/Screen Shot 2018-05-23 at 5.18.55 pm.png){:class="img-responsive"}
