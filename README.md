@@ -5,13 +5,11 @@ traditional county of East Sussex.
 It is defined in OSM by [relation 114085]( https://www.openstreetmap.org/relation/114085)
 
 ```sql
-SELECT admin_level, name, way, tags FROM public.planet_osm_polygon
+SELECT osm_id FROM public.planet_osm_polygon
 WHERE boundary = 'administrative'
   AND admin_level = '6'
   AND name = 'Brighton and Hove'
 ```
-
-
 
 Requirements
 ============
