@@ -75,17 +75,17 @@ tags"
 # tracktype, way_area, way
 
 COPYSELECT="COPY (
-    select 'point' as source,
-    'https://www.openstreetmap.org/node/'||osm_id as aaa_uri,
-    ${COLUMNS} from planet_osm_point
+    SELECT 'point' AS source,
+    'https://www.openstreetmap.org/node/'||osm_id AS aaa_uri,
+    ${COLUMNS} FROM planet_osm_point
   UNION
-    select 'polygon centroid' as source,
-    'https://www.openstreetmap.org/way/'||osm_id as aaa_uri,
-    ${COLUMNS} from planet_osm_polygon
+    SELECT 'polygon centroid' AS source,
+    'https://www.openstreetmap.org/way/'||osm_id AS aaa_uri,
+    ${COLUMNS} FROM planet_osm_polygon
   UNION
-    select 'line centroid' as source,
-    'https://www.openstreetmap.org/way/'||osm_id as aaa_uri,
-    ${COLUMNS} from planet_osm_line
+    SELECT 'line centroid' AS source,
+    'https://www.openstreetmap.org/way/'||osm_id AS aaa_uri,
+    ${COLUMNS} FROM planet_osm_line
   )
   TO '${BASEDIR}/osm-${CITY}.csv' DELIMITER ',' CSV HEADER;"
 psql -d osm-$CITY -c "${COPYSELECT}"
