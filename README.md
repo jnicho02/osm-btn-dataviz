@@ -52,6 +52,10 @@ chmod a+x db-build.sh
 ./db-build.sh
 ```
 
+```sh
+chmod a+x fhrs.sh
+./fhrs.sh
+```
 To query the database
 =====================
 I recommend installing pg_admin. Then you can do queries like:
