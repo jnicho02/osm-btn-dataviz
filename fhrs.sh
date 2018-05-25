@@ -1,5 +1,5 @@
-CITY="brighton-and-hove"
-#CITY="manchester"
+#CITY="brighton-and-hove"
+CITY="manchester"
 
 # NB postgres demands that files are in its data dir to import them
 PGDATA=`psql -d osm-btn -Atc "SHOW data_directory;"`
@@ -52,6 +52,13 @@ fi
 
 BASEDIR="$( cd "$( dirname "$0" )" && pwd )"
 COPYSELECT="COPY
-  (SELECT * FROM fhrs)
+  (SELECT id as fhrs_id,
+    ratingvalue,
+    ratingdate,
+    hygienescore,
+    structuralscore,
+    confidenceinmanagement,
+    schemetype,
+    newratingpending FROM fhrs)
   TO '${BASEDIR}/fhrs-${CITY}.csv' DELIMITER ',' CSV HEADER;"
 psql -d osm-$CITY -c "${COPYSELECT}"

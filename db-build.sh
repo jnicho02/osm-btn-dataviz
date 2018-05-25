@@ -1,5 +1,5 @@
-CITY="brighton-and-hove"
-#CITY="manchester"
+#CITY="brighton-and-hove"
+CITY="manchester"
 if [[ $CITY = "brighton-and-hove" ]]
 then
   COUNTY="west-sussex"
