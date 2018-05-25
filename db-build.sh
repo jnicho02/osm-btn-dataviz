@@ -37,15 +37,15 @@ else
   psql -d osm-$CITY -c "DELETE FROM planet_osm_point osm WHERE not ${IN_THE_CITY};"
   psql -d osm-$CITY -c "DELETE FROM planet_osm_polygon osm WHERE not ${IN_THE_CITY};"
   psql -d osm-$CITY -c "DELETE FROM planet_osm_roads osm WHERE not ${IN_THE_CITY};"
-#  psql -d osm-$CITY -c "DELETE FROM planet_osm_line osm WHERE osm.boundary IS NOT NULL;"
-#  psql -d osm-$CITY -c "DELETE FROM planet_osm_polygon osm WHERE osm.boundary IS NOT NULL;"
+  psql -d osm-$CITY -c "DELETE FROM planet_osm_line osm WHERE osm.boundary IS NOT NULL;"
+  psql -d osm-$CITY -c "DELETE FROM planet_osm_polygon osm WHERE osm.boundary IS NOT NULL;"
 fi
 
 BASEDIR="$( cd "$( dirname "$0" )" && pwd )"
+# ST_AsText(way) as wkt,
 COLUMNS="osm_id,
 ST_X(ST_CENTROID(way)) as longitude, ST_Y(ST_CENTROID(way)) as latitude,
 '${CITY}' as city,
-ST_AsText(way) as wkt,
 access,
 \"addr:housename\" as addr_housename, \"addr:housenumber\" as addr_housenumber, \"addr:interpolation\" as addr_interpolation,
 tags->'addr:postcode' as postcode,
@@ -55,7 +55,8 @@ construction, covered, culvert, cutting,
 tags->'cuisine' as cuisine,
 denomination, disused,
 embankment,
-foot, tags->'fhrs:id' as fhrs_id,
+foot,
+substring(tags->'fhrs:id' from '\d*') as fhrs_id,
 \"generator:source\" as generator_source,
 harbour, highway, historic, horse,
 intermittent,
