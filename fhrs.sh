@@ -19,7 +19,7 @@ else
   psql -d osm-$CITY -c "DROP TABLE fhrs"
   psql -d osm-$CITY -c "
     SELECT
-      (xpath('//FHRSID/text()', myTempTable.myXmlColumn))[1]::text AS id
+      (xpath('//FHRSID/text()', myTempTable.myXmlColumn))[1]::text AS fhrs_id
       ,(xpath('//LocalAuthorityBusinessID/text()', myTempTable.myXmlColumn))[1]::text AS LocalAuthorityBusinessID
       ,(xpath('//BusinessName/text()', myTempTable.myXmlColumn))[1]::text AS BusinessName
       ,(xpath('//BusinessType/text()', myTempTable.myXmlColumn))[1]::text AS BusinessType
@@ -52,7 +52,7 @@ fi
 
 BASEDIR="$( cd "$( dirname "$0" )" && pwd )"
 COPYSELECT="COPY
-  (SELECT id as fhrs_id,
+  (SELECT fhrs_id,
     ratingvalue,
     ratingdate,
     hygienescore,
