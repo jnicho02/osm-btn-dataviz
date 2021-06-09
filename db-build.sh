@@ -2,7 +2,7 @@ CITY="brighton-and-hove"
 #CITY="manchester"
 if [[ $CITY = "brighton-and-hove" ]]
 then
-  COUNTY="west-sussex"
+  COUNTY="west-sussex" # have requested that it be in East Sussex
 else
   COUNTY="greater-manchester"
 fi
@@ -22,13 +22,13 @@ else
   if [[ $CITY = "brighton-and-hove" ]]
   then
     IN_THE_CITY="( \
-    ST_INTERSECTS(osm.way, (SELECT pol.way FROM planet_osm_polygon pol WHERE osm_id='-114085')) \
-      OR \
-    ST_INTERSECTS(osm.way, (SELECT pol.way FROM planet_osm_polygon pol WHERE osm_id='3451897')) \
+      ST_INTERSECTS(osm.way, (SELECT pol.way FROM planet_osm_polygon pol WHERE osm_id='-114085')) \
+        OR \
+      ST_INTERSECTS(osm.way, (SELECT pol.way FROM planet_osm_polygon pol WHERE osm_id='3451897')) \
     )"
   else
     IN_THE_CITY="( \
-    ST_INTERSECTS(osm.way, (SELECT pol.way FROM planet_osm_polygon pol WHERE osm_id='-146656')) \
+      ST_INTERSECTS(osm.way, (SELECT pol.way FROM planet_osm_polygon pol WHERE osm_id='-146656')) \
     )"
   fi
   echo delete non-city data from osm-$CITY
@@ -41,6 +41,7 @@ else
   psql -d osm-$CITY -c "DELETE FROM planet_osm_polygon osm WHERE osm.boundary IS NOT NULL;"
 fi
 
+# Food Hygeine Rating Service
 
 if [[ $CITY = "brighton-and-hove" ]]
 then
@@ -49,14 +50,14 @@ else
   FHRS="FHRS415en-GB.xml"
 fi
 
-# NB postgres demands that files are in its data dir to import them
-PGDATA=`psql -d osm-btn -Atc "SHOW data_directory;"`
+# NB postgres demands that files are in its data_directory to import them
+PGDATA=`psql -d osm-${CITY} -Atc "SHOW data_directory;"`
 if [ -e "${PGDATA}/${CITY}-fhrs-$(date +'%Y-%m-%d').xml" ]
 then
-  echo "file already downloaded today"
+  echo "${CITY}-fhrs file already downloaded today"
 else
   curl http://ratings.food.gov.uk/OpenDataFiles/${FHRS} > "${PGDATA}/${CITY}-fhrs-$(date +'%Y-%m-%d').xml"
-  psql -d osm-$CITY -c "DROP TABLE fhrs"
+  psql -d osm-$CITY -c "DROP TABLE IF EXISTS fhrs"
   psql -d osm-$CITY -c "
     SELECT
       (xpath('//FHRSID/text()', myTempTable.myXmlColumn))[1]::text AS fhrs_id
@@ -105,6 +106,7 @@ FHRS_COLUMNS="
 COPYSELECT="COPY
   (SELECT ${FHRS_COLUMNS} FROM fhrs)
   TO '${BASEDIR}/fhrs-${CITY}.csv' DELIMITER ',' CSV HEADER;"
+
 psql -d osm-$CITY -c "${COPYSELECT}"
 
 
@@ -172,4 +174,34 @@ COPYSELECT="COPY (
     ON (substring(osm.tags->'fhrs:id' from '\d*') = fhrs_id)
   )
   TO '${BASEDIR}/osm-${CITY}.csv' DELIMITER ',' CSV HEADER;"
+
+psql -d osm-$CITY -c "${COPYSELECT}"
+
+## Bike Share
+COLUMNS="
+  osm_id,
+  ref,
+  name,
+  ST_X(ST_CENTROID(way)) as longitude,
+  ST_Y(ST_CENTROID(way)) as latitude
+"
+
+if [[ $CITY = "brighton-and-hove" ]]
+then
+  SCHEME="
+    AND tags->'network'='btnbikeshare'
+  "
+else
+  SCHEME=""
+fi
+
+COPYSELECT="COPY (
+  SELECT ${COLUMNS}
+  FROM planet_osm_point
+  WHERE amenity='bicycle_rental'
+  ${SCHEME}
+  ORDER BY ref ASC
+  )
+  TO '${BASEDIR}/bikeshare-${CITY}.csv' DELIMITER ',' CSV HEADER;"
+
 psql -d osm-$CITY -c "${COPYSELECT}"

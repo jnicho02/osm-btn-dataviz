@@ -1,0 +1,1833 @@
+{
+  "current_page": 1,
+  "per_page": 999,
+  "total_entries": 52,
+  "items": [{
+    "id": 2668,
+    "name": "01 Brighton Station South",
+    "racks_amount": 21,
+    "description": "Three hubs:\r\n1. In bus area adjacent to information kiosk\r\n2. Near to ticket office\r\n3. On forecourt outside M\u0026S",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "93 A2010, Brighton",
+    "current_bikes": 5,
+    "available_bikes": 5,
+    "free_racks": 15,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14053702354431152, 50.8286153585259],
+          [-0.14121294021606445, 50.82861197013302],
+          [-0.14120757579803467, 50.82861197013302],
+          [-0.14132022857666016, 50.82821552646781],
+          [-0.1419210433959961, 50.82832056742492],
+          [-0.14165818691253662, 50.828954196572255],
+          [-0.14049947261810303, 50.82876783595112],
+          [-0.14053702354431152, 50.8286153585259]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14150261878967285, 50.8285475906215]
+    }
+  }, {
+    "id": 2897,
+    "name": "02 Brighton Station North",
+    "racks_amount": 13,
+    "description": "At the northern entrance to the station in two areas\r\n1. By roundabout next to two tier rack.\r\n2. In front of cycle hub",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "109 Stroudley Road, Brighton",
+    "current_bikes": 4,
+    "available_bikes": 4,
+    "free_racks": 9,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14021515846252441, 50.83015078343301],
+          [-0.13987183570861816, 50.830146886930024],
+          [-0.13993084430694577, 50.82960137040587],
+          [-0.14027953147888184, 50.82961831200876],
+          [-0.14024198055267334, 50.82995375447967],
+          [-0.14021515846252441, 50.83015078343301]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14014005661010742, 50.82983516398256]
+    }
+  }, {
+    "id": 2898,
+    "name": "03 New England Quarter",
+    "racks_amount": 13,
+    "description": "Next to Sainsbury's",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "27 New England Street, Brighton",
+    "current_bikes": 2,
+    "available_bikes": 2,
+    "free_racks": 10,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13787895441055298, 50.83049765746925],
+          [-0.1379835605621338, 50.83080929128157],
+          [-0.13784408569335935, 50.83082962067821],
+          [-0.13780653476715088, 50.83070595004507],
+          [-0.13778507709503174, 50.830643267544254],
+          [-0.13774752616882324, 50.83050773752497],
+          [-0.13786017894744873, 50.83049426921298],
+          [-0.13787895441055298, 50.83049765746925]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13788163661956787, 50.83062971456002]
+    }
+  }, {
+    "id": 2931,
+    "name": "04 London Rd Baker St",
+    "racks_amount": 13,
+    "description": "Opposite Baker St entrance.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "37 London Road, Brighton",
+    "current_bikes": 3,
+    "available_bikes": 3,
+    "free_racks": 8,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.136723592877388, 50.83157502577436],
+          [-0.13677120208740234, 50.83163474237214],
+          [-0.13674840331077573, 50.83163897758896],
+          [-0.13672828674316406, 50.83164151871885],
+          [-0.1367001235485077, 50.83160763697553],
+          [-0.1366833597421646, 50.83158434326273],
+          [-0.13666123151779175, 50.831562320105384],
+          [-0.13668403029441833, 50.83155723783683],
+          [-0.13670682907104492, 50.83155215556775],
+          [-0.136723592877388, 50.83157502577436]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13670682907104492, 50.83156994350718]
+    }
+  }, {
+    "id": 2933,
+    "name": "07 Church St",
+    "racks_amount": 13,
+    "description": "Eastern end of Church St, opposite Brighton Dome",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "109 Church Street, Brighton",
+    "current_bikes": 8,
+    "available_bikes": 8,
+    "free_racks": 5,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13832688331604004, 50.82389767269674],
+          [-0.1383081078529358, 50.82392817130341],
+          [-0.13794869184494019, 50.82384595209475],
+          [-0.1379835605621338, 50.82380359283885],
+          [-0.13832688331604004, 50.82389767269674]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.1381927728652954, 50.82388327054838]
+    }
+  }, {
+    "id": 2934,
+    "name": "06 Pavilion Buildings",
+    "racks_amount": 12,
+    "description": "Outside Lloyds Bank",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "171 North Street, Brighton",
+    "current_bikes": 1,
+    "available_bikes": 1,
+    "free_racks": 10,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13871580362319946, 50.82203633043442],
+          [-0.13861119747161865, 50.822143079726146],
+          [-0.1384851336479187, 50.82210330293785],
+          [-0.1383376121520996, 50.82205327478272],
+          [-0.1384502649307251, 50.821912636505424],
+          [-0.13871580362319946, 50.82203633043442]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13857632875442505, 50.821988886226414]
+    }
+  }, {
+    "id": 2935,
+    "name": "08 Old Steine",
+    "racks_amount": 14,
+    "description": "On corner of Old Steine with Castle Square",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "56 Old Steine, Brighton",
+    "current_bikes": 4,
+    "available_bikes": 4,
+    "free_racks": 9,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.1380157470703125, 50.820873933460646],
+          [-0.13825178146362305, 50.820943406979104],
+          [-0.13796210289001465, 50.82124332805549],
+          [-0.1377636194229126, 50.82118232731466],
+          [-0.13777971267700195, 50.821128104367006],
+          [-0.13782531023025513, 50.82108743711497],
+          [-0.1380157470703125, 50.820873933460646]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13796746730804443, 50.82106540900532]
+    }
+  }, {
+    "id": 2936,
+    "name": "09 Brighton Town Hall",
+    "racks_amount": 7,
+    "description": "Just on the West side of the Town Hall",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "10 Bartholomew Road, Brighton",
+    "current_bikes": 4,
+    "available_bikes": 4,
+    "free_racks": 2,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.1403854787349701, 50.82095785237714],
+          [-0.14041632413864136, 50.820883295449484],
+          [-0.14033988118171692, 50.82087397582515],
+          [-0.14031037688255307, 50.82095276895402],
+          [-0.1403854787349701, 50.82095785237714]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14036335051059723, 50.82091591410115]
+    }
+  }, {
+    "id": 2937,
+    "name": "10 Brighton Palace Pier",
+    "racks_amount": 19,
+    "description": "Just to the East of the pier, on the seafront, opposite the Sealife centre.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "4 Madeira Drive, Brighton",
+    "current_bikes": 17,
+    "available_bikes": 17,
+    "free_racks": 0,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13558030128479004, 50.81917773085556],
+          [-0.1355454325675964, 50.819277708542046],
+          [-0.13475686311721802, 50.819203148931734],
+          [-0.13474076986312866, 50.819079447497494],
+          [-0.13558030128479004, 50.81917773085556]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13519138097763062, 50.81918450901055]
+    }
+  }, {
+    "id": 2938,
+    "name": "11 North St Barclays",
+    "racks_amount": 12,
+    "description": "Outside Barclays Bank",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "139-142 North Street, Brighton",
+    "current_bikes": 2,
+    "available_bikes": 2,
+    "free_racks": 9,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14206185936927793, 50.82337491500645],
+          [-0.14201760292053223, 50.8234808140465],
+          [-0.14176413416862488, 50.823424052190916],
+          [-0.14151200652122498, 50.82336135991198],
+          [-0.14156028628349301, 50.82326901572621],
+          [-0.14206185936927793, 50.82337491500645]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14188013970851898, 50.823395713582116]
+    }
+  }, {
+    "id": 2940,
+    "name": "13 Kings Road Odeon",
+    "racks_amount": 13,
+    "description": "Outside the Odeon, on the Kings Road",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "22 King's Road, Brighton",
+    "current_bikes": 12,
+    "available_bikes": 12,
+    "free_racks": 0,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.1461079716682434, 50.820862072117876],
+          [-0.14602214097976685, 50.82101457486647],
+          [-0.1449170708656311, 50.82081293223724],
+          [-0.14498412609100342, 50.8206417894906],
+          [-0.1461079716682434, 50.820862072117876]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.145643949508667, 50.820806238959655]
+    }
+  }, {
+    "id": 2941,
+    "name": "14 Seafront Grand Hotel",
+    "racks_amount": 13,
+    "description": "On the seafront, just opposite the Grand Hotel",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "124A King's Road",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 11,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14728009700775146, 50.820846821815614],
+          [-0.14716744422912598, 50.82101118592192],
+          [-0.14664173126220703, 50.820906128518644],
+          [-0.14674365520477295, 50.8207299026662],
+          [-0.14728009700775146, 50.820846821815614]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14687642455101013, 50.82091972667192]
+    }
+  }, {
+    "id": 2942,
+    "name": "15 Seafront Metropole",
+    "racks_amount": 15,
+    "description": "On the seafront, opposite the Metropole Hotel.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "124 King's Road, Brighton",
+    "current_bikes": 7,
+    "available_bikes": 7,
+    "free_racks": 6,
+    "sponsored": true,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.1494888961315155, 50.82123146680658],
+          [-0.1495586335659027, 50.82124332805549],
+          [-0.14965251088142395, 50.82125773099656],
+          [-0.1497383415699005, 50.821280606246766],
+          [-0.1496686041355133, 50.82141277413966],
+          [-0.14934539794921875, 50.82135262085017],
+          [-0.1494218409061432, 50.821228077877755],
+          [-0.1494888961315155, 50.82123146680658]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14952443540096283, 50.82135223959014]
+    }
+  }, {
+    "id": 2943,
+    "name": "16 Seafront Peace Statue",
+    "racks_amount": 13,
+    "description": "Just to the West of the Peace Statue",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "Kingsway, Hove",
+    "current_bikes": 9,
+    "available_bikes": 9,
+    "free_racks": 4,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.15721499919891357, 50.82258701860718],
+          [-0.15714257955551147, 50.822766626268155],
+          [-0.15666514635086057, 50.82269037781722],
+          [-0.1568019390106201, 50.82236843854057],
+          [-0.15726327896118164, 50.82245485403804],
+          [-0.15721499919891357, 50.82258701860718]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.15702992677688596, 50.82256160237293]
+    }
+  }, {
+    "id": 2944,
+    "name": "17 Brunswick Place",
+    "racks_amount": 12,
+    "description": "Just to the North of Western Road, on the West side of Brunswick Place.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "23 Western Road, Hove",
+    "current_bikes": 7,
+    "available_bikes": 7,
+    "free_racks": 5,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.15857085585594177, 50.82562077037872],
+          [-0.1586700975894928, 50.825633477664915],
+          [-0.15865132212638855, 50.82568684822926],
+          [-0.1586446166038513, 50.82571395706398],
+          [-0.15863120555877686, 50.82573683013101],
+          [-0.15861645340919495, 50.825770716135665],
+          [-0.15858829021453857, 50.825868985410075],
+          [-0.15848368406295776, 50.82585543103968],
+          [-0.15857085585594177, 50.82562077037872]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.15858829021453857, 50.82565635077138]
+    }
+  }, {
+    "id": 2945,
+    "name": "18 Palmeira Square",
+    "racks_amount": 13,
+    "description": "On the Church Rd Island in the Western end of Palmeira Square",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "81 Western Road, Hove",
+    "current_bikes": 4,
+    "available_bikes": 4,
+    "free_racks": 9,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.16430675983428955, 50.826780592505415],
+          [-0.16422629356384277, 50.82689071946845],
+          [-0.16429334878921506, 50.826912744829876],
+          [-0.1643657684326172, 50.8268009236566],
+          [-0.16430675983428955, 50.826780592505415]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.16429603099822998, 50.82684666866764]
+    }
+  }, {
+    "id": 2946,
+    "name": "19 Sussex County Cricket Ground",
+    "racks_amount": 9,
+    "description": "On Eaton Rd, just outside the main entrance.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "9 Eaton Road, Hove",
+    "current_bikes": 7,
+    "available_bikes": 7,
+    "free_racks": 2,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.16468092799186707, 50.82969454914562],
+          [-0.16465410590171814, 50.82977417446675],
+          [-0.16425177454948425, 50.829706408244604],
+          [-0.16428396105766296, 50.82962932404733],
+          [-0.16468092799186707, 50.82969454914562]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.16448244452476501, 50.82969632796044]
+    }
+  }, {
+    "id": 2947,
+    "name": "20 Hove Station",
+    "racks_amount": 19,
+    "description": "On Station Approach",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "86 Station Approach, Hove",
+    "current_bikes": 7,
+    "available_bikes": 7,
+    "free_racks": 10,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.17077356576919556, 50.83490972077406],
+          [-0.17103105783462524, 50.83494360012041],
+          [-0.17109274864196777, 50.83473778271227],
+          [-0.17063140869140625, 50.83467171767279],
+          [-0.17042487859725952, 50.83463953210684],
+          [-0.1700654625892639, 50.83456669100724],
+          [-0.17000377178192136, 50.83467510562579],
+          [-0.16995549201965332, 50.834764886291154],
+          [-0.17077356576919556, 50.83490972077406]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.17071790993213654, 50.83488562405285]
+    }
+  }, {
+    "id": 2949,
+    "name": "21 Hove Town Hall",
+    "racks_amount": 13,
+    "description": "On the corner of Church St and Norton Rd",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "13 Norton Road, Hove",
+    "current_bikes": 7,
+    "available_bikes": 7,
+    "free_racks": 5,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.17103374004364014, 50.82798011525022],
+          [-0.17108470201492307, 50.8278394948253],
+          [-0.17098277807235718, 50.82782585633645],
+          [-0.17089158296585083, 50.82808168361551],
+          [-0.1709921658039093, 50.82809608444716],
+          [-0.17103374004364014, 50.82798011525022]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.17102032899856567, 50.82793098275371]
+    }
+  }, {
+    "id": 3088,
+    "name": "22 Preston Park",
+    "racks_amount": 24,
+    "description": "On traffic island at Southern end of the park.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "123 Preston Road, Brighton",
+    "current_bikes": 3,
+    "available_bikes": 3,
+    "free_racks": 18,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14339089393615723, 50.836413177800445],
+          [-0.1429912447929382, 50.836499482601276],
+          [-0.14290809631347656, 50.83634872434734],
+          [-0.14306366443634033, 50.83623701047827],
+          [-0.14339089393615723, 50.836413177800445]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.1432017982006073, 50.8363437271789]
+    }
+  }, {
+    "id": 3090,
+    "name": "25 UoB Cockcroft",
+    "racks_amount": 14,
+    "description": "Two locations, outside the main entrance inside the campus and a smaller hub on the highway just outside.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "Lewes Road, Brighton",
+    "current_bikes": 9,
+    "available_bikes": 9,
+    "free_racks": 2,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.11816203594207764, 50.84457890426974],
+          [-0.11833906173706056, 50.844670359495765],
+          [-0.11789917945861816, 50.8450497274081],
+          [-0.11767923831939696, 50.8449345624751],
+          [-0.11816203594207764, 50.84457890426974]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.11800915002822876, 50.84481431583892]
+    }
+  }, {
+    "id": 3093,
+    "name": "28 UoB Falmer",
+    "racks_amount": 13,
+    "description": "On East side of Westlain House",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": ", Brighton",
+    "current_bikes": 1,
+    "available_bikes": 1,
+    "free_racks": 12,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.08600234985351562, 50.85983242692564],
+          [-0.08576363325119017, 50.85978332806749],
+          [-0.08573144674301147, 50.85983411998879],
+          [-0.0859755277633667, 50.859893377160375],
+          [-0.08600234985351562, 50.85983242692564]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.08586689829826355, 50.859838352613934]
+    }
+  }, {
+    "id": 3094,
+    "name": "29 The Level (South)",
+    "racks_amount": 9,
+    "description": "In front of the Loving Hut Cafe",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "5 Saint Peter's Place, Brighton",
+    "current_bikes": 6,
+    "available_bikes": 6,
+    "free_racks": 3,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13434380292892456, 50.82922704412665],
+          [-0.13411313295364377, 50.82914064116347],
+          [-0.13402730226516724, 50.82923043247488],
+          [-0.1343303918838501, 50.82932860975313],
+          [-0.13435453176498413, 50.829294726330936],
+          [-0.13434648513793945, 50.829233820822886],
+          [-0.13434380292892456, 50.82922704412665]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13418689370155334, 50.82922704404669]
+    }
+  }, {
+    "id": 3095,
+    "name": "30 Edward St",
+    "racks_amount": 18,
+    "description": "West end of EDward St opposite old AMEX building",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "154-155 Edward Street, Brighton",
+    "current_bikes": 7,
+    "available_bikes": 7,
+    "free_racks": 10,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13378053903579712, 50.822539574958725],
+          [-0.13374030590057373, 50.82265479516417],
+          [-0.13343989849090576, 50.822607351584615],
+          [-0.13313949108123777, 50.82256668562089],
+          [-0.13279616832733154, 50.822514158698645],
+          [-0.13260036706924438, 50.8224853535872],
+          [-0.132409930229187, 50.82245315961804],
+          [-0.1324528455734253, 50.82235996642435],
+          [-0.13378053903579712, 50.822539574958725]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13300001621246338, 50.822478575911326]
+    }
+  }, {
+    "id": 3096,
+    "name": "31 St Georges Rd Eaton Place",
+    "racks_amount": 8,
+    "description": "Eastern end of St George's Rd",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "61 Saint George's Road, Brighton",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 7,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.11674851179122925, 50.81741876637874],
+          [-0.11667877435684203, 50.817415461908524],
+          [-0.11675119400024413, 50.81740182034866],
+          [-0.11673778295516966, 50.817374706687716],
+          [-0.11643201112747191, 50.81732725774323],
+          [-0.11636495590209961, 50.81743232319837],
+          [-0.11667877435684203, 50.8174222403193],
+          [-0.11674851179122925, 50.81741876637874]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.11656880378723145, 50.8174078361904]
+    }
+  }, {
+    "id": 3097,
+    "name": "32 Madeira Drive",
+    "racks_amount": 13,
+    "description": "Outside YellowWave",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "299 Madeira Drive",
+    "current_bikes": 6,
+    "available_bikes": 6,
+    "free_racks": 6,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.1221102476119995, 50.817079929344615],
+          [-0.12154966592788695, 50.81696808462094],
+          [-0.12161672115325928, 50.81687488047992],
+          [-0.12216925621032715, 50.81698842004516],
+          [-0.1221102476119995, 50.817079929344615]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.12185946106910706, 50.816977404912265]
+    }
+  }, {
+    "id": 3098,
+    "name": "33 Royal Sussex County Hospital",
+    "racks_amount": 11,
+    "description": "Junction of Abbey Rd and Eastern Rd",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "19 Abbey Road, Brighton",
+    "current_bikes": 1,
+    "available_bikes": 1,
+    "free_racks": 10,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.11931136250495909, 50.819421786181586],
+          [-0.11934489011764528, 50.819378575646155],
+          [-0.11932209134101868, 50.81937518658285],
+          [-0.11929392814636229, 50.81941924438648],
+          [-0.11931136250495909, 50.819421786181586]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.11931940913200378, 50.81939848638222]
+    }
+  }, {
+    "id": 3100,
+    "name": "35 Brighton Marina",
+    "racks_amount": 20,
+    "description": "Adjacent to south wall of multi storey car park opposite McDonalds",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": ", Brighton",
+    "current_bikes": 11,
+    "available_bikes": 11,
+    "free_racks": 9,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.10521769523620605, 50.81251127807101],
+          [-0.10441303253173828, 50.81236891626925],
+          [-0.10453104972839354, 50.81219943736806],
+          [-0.10524988174438477, 50.81233502053818],
+          [-0.10521769523620605, 50.81251127807101]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.10483145713806152, 50.81235535771953]
+    }
+  }, {
+    "id": 3101,
+    "name": "36 Seven Dials",
+    "racks_amount": 4,
+    "description": "Several stands around the Seven Dials roundabout",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "2A Goldsmid Road, Hove",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 3,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14767706394195557, 50.8309365192352],
+          [-0.14760196208953857, 50.83102122476525],
+          [-0.14739811420440674, 50.83104833050239],
+          [-0.1472318172454834, 50.83097870264974],
+          [-0.14714330434799194, 50.83092279696622],
+          [-0.1470896601676941, 50.83083809125754],
+          [-0.14719158411026, 50.83078726775856],
+          [-0.14729619026184082, 50.83076185598831],
+          [-0.14749467372894287, 50.830723060617686],
+          [-0.14769315719604492, 50.83077727242254],
+          [-0.14772534370422363, 50.83087553115838],
+          [-0.14767706394195557, 50.8309365192352]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14745444059371948, 50.83088569556004]
+    }
+  }, {
+    "id": 3102,
+    "name": "36 Seven Dials Vernon Terrace",
+    "racks_amount": 11,
+    "description": "South of Seven Dials on Vernon Terrace",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "38 Montpelier Crescent, Brighton",
+    "current_bikes": 5,
+    "available_bikes": 5,
+    "free_racks": 6,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14817595481872559, 50.83036043286832],
+          [-0.14864802360534668, 50.830031685213676],
+          [-0.1485326886177063, 50.82996900180742],
+          [-0.14817595481872559, 50.83023159389301],
+          [-0.14806866645812988, 50.830307830028275],
+          [-0.14817595481872559, 50.83036043286832]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14821618795394897, 50.83028673796445]
+    }
+  }, {
+    "id": 3103,
+    "name": "37 Western Road",
+    "racks_amount": 8,
+    "description": "By the bus stop opposite Yorkshire Building Society.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "137-140 Western Road, Brighton",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 6,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.15179961919784546, 50.82477954033791],
+          [-0.1517808437347412, 50.824829523210994],
+          [-0.15113309025764465, 50.824737181928974],
+          [-0.15114516019821167, 50.82467618575262],
+          [-0.15179961919784546, 50.82477954033791]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.15129536390304565, 50.82472023855466]
+    }
+  }, {
+    "id": 3104,
+    "name": "38 Lewes Rd South Elm Grove",
+    "racks_amount": 19,
+    "description": "On Southbound Lewes Rd just south of Elm Grove.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "48 Lewes Road, Brighton",
+    "current_bikes": 4,
+    "available_bikes": 4,
+    "free_racks": 14,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.1298511028289795, 50.83202073841149],
+          [-0.13023734092712402, 50.831814061073814],
+          [-0.13013005256652832, 50.83175307414357],
+          [-0.12978672981262207, 50.83195297545078],
+          [-0.1298511028289795, 50.83202073841149]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13001203536987305, 50.83188690627753]
+    }
+  }, {
+    "id": 3105,
+    "name": "39 Lewes Rd Triangle",
+    "racks_amount": 19,
+    "description": "2 hubs on the corner of Lewes Rd and Edinburgh Rd",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "156-158 Lewes Road, Brighton",
+    "current_bikes": 22,
+    "available_bikes": 22,
+    "free_racks": 0,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.1265197992324829, 50.83484280899276],
+          [-0.12659020721912384, 50.83487414743393],
+          [-0.12649431824684143, 50.834979173407596],
+          [-0.12658417224884033, 50.835013052703516],
+          [-0.12667536735534668, 50.8350494729192],
+          [-0.12683093547821045, 50.83511892534475],
+          [-0.1268121600151062, 50.835134170985334],
+          [-0.12679070234298706, 50.835164662251486],
+          [-0.1267451047897339, 50.835199388391494],
+          [-0.12635350227355957, 50.83503083932404],
+          [-0.1265197992324829, 50.83484280899276]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.12649834156036377, 50.834913955693686]
+    }
+  }, {
+    "id": 3107,
+    "name": "42 Rock St",
+    "racks_amount": 10,
+    "description": "Junction of Rock St and Eastern Rd",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "11 Rock Street, Brighton",
+    "current_bikes": 2,
+    "available_bikes": 2,
+    "free_racks": 7,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.11166170239448547, 50.81731628515761],
+          [-0.11159330606460571, 50.81730099134251],
+          [-0.11167913675308228, 50.817145934546915],
+          [-0.11175289750099182, 50.81715440760914],
+          [-0.11166170239448547, 50.81731628515761]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.11166103184223175, 50.81728239300462]
+    }
+  }, {
+    "id": 3108,
+    "name": "43 Hove Lawns",
+    "racks_amount": 27,
+    "description": "Seafront by Hove Lawns Cafe",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": ", Adelaide Mansions",
+    "current_bikes": 13,
+    "available_bikes": 13,
+    "free_racks": 13,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.16593217849731445, 50.823959474711145],
+          [-0.16571491956710815, 50.82393236485768],
+          [-0.16578465700149536, 50.82374767856216],
+          [-0.16585707664489746, 50.82356299153607],
+          [-0.16608238220214844, 50.82359857349701],
+          [-0.16593217849731445, 50.823959474711145]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.16590267419815063, 50.823766316661825]
+    }
+  }, {
+    "id": 3109,
+    "name": "44 George St",
+    "racks_amount": 11,
+    "description": "In lay-by outside Santander",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "102 George Street, Hove",
+    "current_bikes": 8,
+    "available_bikes": 8,
+    "free_racks": 2,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.17412900924682617, 50.828251951987774],
+          [-0.1740860939025879, 50.828246022253886],
+          [-0.17399758100509644, 50.82842730234888],
+          [-0.1740458607673645, 50.82842899655204],
+          [-0.17412900924682617, 50.828251951987774]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.1740512251853943, 50.82837478201995]
+    }
+  }, {
+    "id": 3110,
+    "name": "46 St James St",
+    "racks_amount": 9,
+    "description": "In layby between New Steine Mews and St Jame's Av",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "28 New Steine, Brighton",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 9,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13080663979053497, 50.820318141591656],
+          [-0.13108491897583008, 50.8203452535436],
+          [-0.13107217848300934, 50.8203706709843],
+          [-0.1308073103427887, 50.82034567716774],
+          [-0.13080663979053497, 50.820318141591656]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13097092509269714, 50.82034125029293]
+    }
+  }, {
+    "id": 3111,
+    "name": "47 Montague Place",
+    "racks_amount": 9,
+    "description": "On Montague Place close to junction with Bristol Road",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "28 Montague Place, Brighton",
+    "current_bikes": 9,
+    "available_bikes": 9,
+    "free_racks": 0,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.12448802590370177, 50.81944377270078],
+          [-0.12442633509635924, 50.81955222244487],
+          [-0.12436062097549438, 50.81970134043172],
+          [-0.1242600381374359, 50.81968270070941],
+          [-0.12438476085662843, 50.819426827405515],
+          [-0.12448802590370177, 50.81944377270078]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.12438476085662843, 50.81945902346126]
+    }
+  }, {
+    "id": 3112,
+    "name": "48 Moulsecoomb Way",
+    "racks_amount": 14,
+    "description": "Corner of Moulsecoomb Way and Lewes Road",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "1 Moulsecoomb Way, Brighton",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 11,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.11018514633178711, 50.85132570170259],
+          [-0.10986864566802979, 50.851356182389196],
+          [-0.10978549718856812, 50.851137737028395],
+          [-0.11000007390975952, 50.85108185549269],
+          [-0.11018514633178711, 50.85132570170259]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.10998532176017761, 50.85121901894094]
+    }
+  }, {
+    "id": 3113,
+    "name": "49 Hove Park",
+    "racks_amount": 14,
+    "description": "South Entrance of Hove Park",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "Old Shoreham Road, Hove",
+    "current_bikes": 4,
+    "available_bikes": 4,
+    "free_racks": 10,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.17300650477409363, 50.83896998527728],
+          [-0.17301589250564575, 50.839156305166604],
+          [-0.1728147268295288, 50.83915715207348],
+          [-0.1728066802024841, 50.83897083218754],
+          [-0.17300650477409363, 50.83896998527728]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.17291396856307983, 50.83905090743323]
+    }
+  }, {
+    "id": 3114,
+    "name": "50 The Level North",
+    "racks_amount": 11,
+    "description": "North side of the Level on Union Rd",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "Union Road, Brighton",
+    "current_bikes": 6,
+    "available_bikes": 6,
+    "free_racks": 5,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13365447521209717, 50.83192578555583],
+          [-0.1334264874458313, 50.8319190092504],
+          [-0.13343721628189087, 50.831822446791165],
+          [-0.13365715742111203, 50.83181397639048],
+          [-0.13365447521209717, 50.83192578555583]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13354182243347168, 50.83186988097316]
+    }
+  }, {
+    "id": 3115,
+    "name": "51 St Annes Well Gardens",
+    "racks_amount": 10,
+    "description": "On Summerhill Rd",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "3 Somerhill Road, Hove",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 9,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.15828117728233337, 50.83012909844826],
+          [-0.15820741653442383, 50.83035695991614],
+          [-0.1583629846572876, 50.83038406603904],
+          [-0.1584354043006897, 50.83015366349272],
+          [-0.15828117728233337, 50.83012909844826]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.15829592943191528, 50.8302689494861]
+    }
+  }, {
+    "id": 3117,
+    "name": "53 Ewart St",
+    "racks_amount": 11,
+    "description": "Corner of Ewart St and Islingword Rd, outside the Cod Father.",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "40 Islingword Road, Brighton",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 11,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.12628644704818723, 50.830186699221755],
+          [-0.12626700103282928, 50.830171028430144],
+          [-0.12645408511161801, 50.830034226431096],
+          [-0.12648962438106537, 50.83004566190767],
+          [-0.12628644704818723, 50.830186699221755]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.12632131576538086, 50.83015582350485]
+    }
+  }, {
+    "id": 3119,
+    "name": "55 Hartington Road",
+    "racks_amount": 10,
+    "description": "Between the trees on South side of Hartington Rd",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "6A Pevensey Road, Brighton",
+    "current_bikes": 5,
+    "available_bikes": 5,
+    "free_racks": 4,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.12532085180282593, 50.835483125396514],
+          [-0.1254415512084961, 50.83533236385938],
+          [-0.1250821352005005, 50.83523580846177],
+          [-0.12472271919250488, 50.83515958037519],
+          [-0.12463152408599854, 50.83532050618972],
+          [-0.12532085180282593, 50.835483125396514]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.12505531311035156, 50.835342527573815]
+    }
+  }, {
+    "id": 3342,
+    "name": "01d Upper Gloucester Road / Surrey Street",
+    "racks_amount": 8,
+    "description": "",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "56 Queens Road, Brighton",
+    "current_bikes": 1,
+    "available_bikes": 1,
+    "free_racks": 7,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14237165451049805, 50.8274497368639],
+          [-0.14204978942871094, 50.82735316515904],
+          [-0.14174938201904297, 50.82728878391147],
+          [-0.14169842004776, 50.82739552119454],
+          [-0.14166623353958127, 50.827470067723645],
+          [-0.1423126459121704, 50.82760221809639],
+          [-0.14230191707611084, 50.82759205269639],
+          [-0.14237165451049805, 50.8274497368639]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14201894402503967, 50.82745360164151]
+    }
+  }, {
+    "id": 3465,
+    "name": "52 Grand Parade",
+    "racks_amount": 11,
+    "description": "Outside University of Brighton Art College",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "58-67 Grand Parade, Brighton",
+    "current_bikes": 4,
+    "available_bikes": 4,
+    "free_racks": 5,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13563930988311768, 50.82433488102449],
+          [-0.13583242893218994, 50.82394253105458],
+          [-0.13571977615356445, 50.823928976124904],
+          [-0.13549983501434323, 50.82431454879937],
+          [-0.13563930988311768, 50.82433488102449]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.13567686080932617, 50.824080726882215]
+    }
+  }, {
+    "id": 3474,
+    "name": "26 UoS Sports Centre",
+    "racks_amount": 20,
+    "description": "",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": ", Falmer",
+    "current_bikes": 0,
+    "available_bikes": 0,
+    "free_racks": 19,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.09011015295982361, 50.863233582179014],
+          [-0.0901879370212555, 50.86322681041976],
+          [-0.0901879370212555, 50.863191919972756],
+          [-0.08972659707069397, 50.863227656889705],
+          [-0.08972659707069397, 50.86326066920614],
+          [-0.09011015295982361, 50.863233582179014]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.08995726704597473, 50.863221123190165]
+    }
+  }, {
+    "id": 3825,
+    "name": "05 Whitecross Street",
+    "racks_amount": 15,
+    "description": "New",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "Whitecross Street, Brighton",
+    "current_bikes": 2,
+    "available_bikes": 2,
+    "free_racks": 12,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.13791918754577637, 50.82909820199722],
+          [-0.13802111148834229, 50.828476434215965],
+          [-0.1378387212753296, 50.828473045813],
+          [-0.13774216175079346, 50.829086342743715],
+          [-0.13791918754577637, 50.82909820199722]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.1378709077835083, 50.8288273438786]
+    }
+  }, {
+    "id": 3834,
+    "name": "61 Eastern Road",
+    "racks_amount": 23,
+    "description": "",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": false,
+    "area_id": 339,
+    "address": "116 Eastern Road, Brighton",
+    "current_bikes": 5,
+    "available_bikes": 5,
+    "free_racks": 18,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.125044584274292, 50.82107070422493],
+          [-0.12511968612670898, 50.820975813798405],
+          [-0.1241755485534668, 50.820752142744354],
+          [-0.12411117553710939, 50.820860589449815],
+          [-0.125044584274292, 50.82107070422493]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.12461543083190918, 50.820911423484645]
+    }
+  }, {
+    "id": 3871,
+    "name": "60 Preston Park North",
+    "racks_amount": 11,
+    "description": "",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "179 Preston Road, Brighton",
+    "current_bikes": 5,
+    "available_bikes": 5,
+    "free_racks": 5,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.14935076236724854, 50.83968657173465],
+          [-0.14858365058898926, 50.83925973355679],
+          [-0.1484978199005127, 50.839337648753556],
+          [-0.14924347400665283, 50.83975432346733],
+          [-0.14935076236724854, 50.83968657173465]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.14892429113388062, 50.83950702851206]
+    }
+  }, {
+    "id": 3970,
+    "name": "58 King Alfred",
+    "racks_amount": 15,
+    "description": "",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "Hove Street South",
+    "current_bikes": 19,
+    "available_bikes": 19,
+    "free_racks": 0,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.18078088760375977, 50.82480797339835],
+          [-0.18079698085784912, 50.82476222634292],
+          [-0.18039464950561523, 50.82471139622874],
+          [-0.18038123846054077, 50.82475544899755],
+          [-0.18078088760375977, 50.82480797339835]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.18058910965919495, 50.82475968481354]
+    }
+  }, {
+    "id": 3971,
+    "name": "59 Hove Lagoon",
+    "racks_amount": 13,
+    "description": "",
+    "network_id": 126,
+    "has_kiosk": false,
+    "public": false,
+    "display_method": "auto",
+    "collapse_bikes": true,
+    "priority": null,
+    "area_id": 339,
+    "address": "265 Kingsway, Hove",
+    "current_bikes": 19,
+    "available_bikes": 19,
+    "free_racks": 0,
+    "sponsored": false,
+    "sponsored_bikes": 0,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-0.19539892673492432, 50.826548022561155],
+          [-0.19546061754226685, 50.82635318094262],
+          [-0.19538015127182007, 50.82634132099176],
+          [-0.19531846046447754, 50.826542939746666],
+          [-0.19539892673492432, 50.826548022561155]
+        ]
+      ]
+    },
+    "middle_point": {
+      "type": "Point",
+      "coordinates": [-0.1953895390033722, 50.82644467177646]
+    }
+  }]
+}
